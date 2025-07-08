@@ -9,15 +9,17 @@
     "@sap/ams": "^2",
     "@sap/cds": "^9",
     "@sap/xssec": "^4",
-    "express": "^4"
+    "express": "^4",
+    "@cap-js/hana": "^2"
   },
   "engines": {
-    "node": ">=20"
+    "node": "^22"
   },
   "devDependencies": {
     "@cap-js/cds-types": "^0.11.0",
     "@cap-js/sqlite": "^2",
-    "@sap/ams-dev": "^2"
+    "@sap/ams-dev": "^2",
+    "@sap/cds-dk": ">=8"
   },
   "scripts": {
     "start": "cds-serve"
@@ -34,7 +36,7 @@
               ],
               "roles": [
                 "support"
-              ] 
+              ]
             },
             "bob": {}
           }
