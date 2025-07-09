@@ -106,6 +106,9 @@ resources:
       service-plan: application
       config:
         display-name: bookshop-ams
+        provided-apis:
+          name: bookshop-ams
+          description: "Bookshop AMS API"
         authorization:
           enabled: true
         oauth2-configuration:
