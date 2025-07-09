@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@sap/ams": "^2",
+    "@sap/ams": "^3",
     "@sap/cds": "^9",
     "@sap/xssec": "^4",
     "express": "^4",
@@ -32,10 +32,7 @@
           "users": {
             "alice": {
               "policies": [
-                "support"
-              ],
-              "roles": [
-                "support"
+                "cap.support"
               ]
             },
             "bob": {}
