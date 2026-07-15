@@ -12,6 +12,9 @@
     "express": "^4",
     "@cap-js/hana": "^2"
   },
+  "workspaces": [
+    "app/router"
+  ],
   "engines": {
     "node": "^22"
   },
