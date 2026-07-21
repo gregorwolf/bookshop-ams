@@ -1,8 +1,8 @@
 // ---------------------------------HEADER_START-----------------------------------------------
-// Generated from a CAP model by the SAP AMS Plugin (@sap/ams) 2.4.0
-// hash of generated content: e67b4360fb6755d6b9cf24b718b7b700ca41b67c734651927939cb4d734f86b2
+// Generated from a CAP model by the SAP AMS Plugin (@sap/ams) 3.7.0
+// hash of generated content: 5e7f8b49b14638d79395860d3d6fb46130be7f8e8563b13881711104dfff0bad
 // ----------------------------------HEADER_END------------------------------------------------
 
 SCHEMA {
-
+	Supplier: String
 }

@@ -4,3 +4,6 @@ Authorization: Basic alice:
 ###
 http://localhost:4004/odata/v4/catalog/Books
 Authorization: Basic alice:
+###
+http://localhost:4004/odata/v4/catalog/Books
+Authorization: Basic bob:

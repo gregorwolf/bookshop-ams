@@ -6,11 +6,11 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@cap-js/hana": "^2",
     "@sap/ams": "^3",
     "@sap/cds": "^9",
     "@sap/xssec": "^4",
-    "express": "^4",
-    "@cap-js/hana": "^2"
+    "express": "^4"
   },
   "workspaces": [
     "app/router"
@@ -38,12 +38,18 @@
                 "cap.support"
               ]
             },
-            "bob": {}
+            "bob": {
+              "policies": [
+                "cap.Supplier435345"
+              ]
+            }
           }
         }
       },
-      "auth": {
-        "kind": "ias"
+      "[production]": {
+        "auth": {
+          "auth": "ias"
+        }
       }
     }
   }

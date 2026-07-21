@@ -114,7 +114,13 @@ resources:
         oauth2-configuration:
           redirect-uris:
             - ~{app-api/app-protocol}://~{app-api/app-uri}/login/callback
+            - http://localhost:5000/login/callback?authType=ias
+            - ~{app-api/app-protocol}://*~{app-api/app-uri}/login/callback
           post-logout-redirect-uris:
             - ~{app-api/app-protocol}://~{app-api/app-uri}/*/logout.html
+            - ~{app-api/app-protocol}://*~{app-api/app-uri}/*/logout.html
+          token-policy:
+            access-token-format: "jwt"
+        xsuaa-cross-consumption: true
     requires:
       - name: app-api

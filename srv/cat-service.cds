@@ -5,3 +5,6 @@ service CatalogService {
     @readonly
     entity Books as projection on my.Books;
 }
+
+
+annotate CatalogService.Books with @ams.attributes: {Supplier: (supplier)};

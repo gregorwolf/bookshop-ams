@@ -1,3 +1,3 @@
-ID,title,stock
-1,Wuthering Heights,100
-2,Jane Eyre,500
+ID,title,stock,supplier
+1,Wuthering Heights,100,435345
+2,Jane Eyre,500,435346
